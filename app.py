@@ -19,6 +19,11 @@ año_inicio = st.sidebar.slider("Ano inicial", int(
 año_fim = st.sidebar.slider("Ano final", int(
     df["Year"].min()), int(df["Year"].max()), 2024)
 
+st.write('A temperatura média global está subindo — mas quanto, onde e com que consequências?”
+
+Apesar de sabermos que o planeta está esquentando, muitas pessoas ainda não têm a real dimensão do problema ou não sabem como esse aumento se comporta ao longo do tempo e em diferentes regiões. Como conversar com as pessoas sobre o tema?')
+
+
 # Seleção do tipo de média
 tipo_media = st.sidebar.selectbox(
     "Tipo de média",
